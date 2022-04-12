@@ -1,0 +1,401 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 324,
+      "max": [
+        1.221297025680542,
+        1.8435378074645996,
+        2.527191638946533
+      ],
+      "min": [
+        -0.7249917984008789,
+        -0.004409302957355976,
+        0.7329849004745483
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 3888,
+      "componentType": 5126,
+      "count": 324,
+      "max": [
+        0.9773451089859009,
+        0.9957101941108704,
+        0.9999459981918335
+      ],
+      "min": [
+        -0.879051148891449,
+        -0.6065075993537903,
+        -0.3734903931617737
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 324,
+      "max": [
+        1.0,
+        0.9973018169403076,
+        0.8835372924804688,
+        1.0
+      ],
+      "min": [
+        -0.9910617470741272,
+        -0.9945642352104187,
+        -0.8565324544906616,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 324,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.3999728262424469,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 972,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 7776,
+      "componentType": 5126,
+      "count": 99,
+      "max": [
+        0.30129531025886536,
+        0.9454517364501953,
+        1.5790550708770752
+      ],
+      "min": [
+        -0.1288699209690094,
+        -0.11359374970197678,
+        -0.07007654011249542
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 8964,
+      "componentType": 5126,
+      "count": 99,
+      "max": [
+        0.9891337752342224,
+        0.9693373441696167,
+        0.9339679479598999
+      ],
+      "min": [
+        -0.9863182306289673,
+        -0.9481775164604187,
+        -0.6302787661552429
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 5184,
+      "componentType": 5126,
+      "count": 99,
+      "max": [
+        0.9837273359298706,
+        0.8758355975151062,
+        0.8981252908706665,
+        1.0
+      ],
+      "min": [
+        -0.9957835078239441,
+        -0.9609448909759521,
+        -0.5480236411094666,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 2592,
+      "componentType": 5126,
+      "count": 99,
+      "max": [
+        0.3364385962486267,
+        1.0
+      ],
+      "min": [
+        0.06025692820549011,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 3888,
+      "componentType": 5125,
+      "count": 264,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Doug Hayward (https://sketchfab.com/DougHayward)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/phoenix-palm-cities-skylines-cec4254d14e9443d9f299c6247628ebf",
+      "title": "Phoenix Palm: Cities Skylines"
+    },
+    "generator": "Sketchfab-12.67.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 4944,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3384,
+      "byteOffset": 4944,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 10152,
+      "byteOffset": 8328,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 6768,
+      "byteOffset": 18480,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 25248,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/PhoenixPalm_d_baseColor.png"
+    },
+    {
+      "uri": "textures/PhoenixPalm_d_normal.png"
+    },
+    {
+      "uri": "textures/NPalmTree02_D_baseColor.png"
+    },
+    {
+      "uri": "textures/NPalmTree02_D_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaCutoff": 0.23951981707317074,
+      "alphaMode": "MASK",
+      "doubleSided": true,
+      "name": "PhoenixPalm_d",
+      "normalTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    },
+    {
+      "name": "NPalmTree02_D",
+      "normalTexture": {
+        "index": 3
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "PhoenixPalm_d.010_PhoenixPalm_d_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "PhoenixPalm_d.010_NPalmTree02_D_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.0052462415769696236,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1648996382994933e-18,
+        -0.0052462415769696236,
+        0.0,
+        0.0,
+        0.0052462415769696236,
+        1.1648996382994933e-18,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "PhoenixPalm.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5
+      ],
+      "matrix": [
+        401.99343868678176,
+        59.3230190260817,
+        -297.6044804925828,
+        0.0,
+        -284.41661055131743,
+        245.8783213805398,
+        -335.16755793698644,
+        0.0,
+        105.8054874961189,
+        435.55825823467615,
+        229.74029986898273,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "PhoenixPalm_d.010"
+    },
+    {
+      "mesh": 0,
+      "name": "PhoenixPalm_d.010_PhoenixPalm_d_0"
+    },
+    {
+      "mesh": 1,
+      "name": "PhoenixPalm_d.010_NPalmTree02_D_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}
